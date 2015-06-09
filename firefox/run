@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker run --rm=true -e DISPLAY -v $HOME/.Xauthority:/home/developer/.Xauthority --net=host firefox
